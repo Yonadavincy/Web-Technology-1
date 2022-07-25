@@ -6,10 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company page | Exp-2 | Impler</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header Section */
+        .header-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .profile-img-container {
+            width: 5rem;
+            margin: 0 1rem;
+        }
+
+        .head-text {
+            margin: 0 1rem;
+        }
+
+        /* Link Section */
+
+        span {
+            margin: 0 5rem;
+        }
+
+        .link-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 1rem;
+        }
+
+        /* About Container */
+        .about-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 1rem;
+        }
+        .about-video, .about-text{
+            margin: 0 1rem;
+        }
+    </style>
+
 </head>
 
 <body>
-    
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="profile-img-container">
+            <img src="assets/images/head-profile.png" alt="">
+        </div>
+        <div class="head-text">
+            <h1 class="title">Company Name</h1>
+        </div>
+    </header>
+
+    <!-- Link Section -->
+    <section class="link-container">
+        <div class="links">
+            <a href="#">Link 1</a>
+            <span>|</span>
+            <a href="#">Link 2</a>
+            <span>|</span>
+            <a href="#">Link 3</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-container">
+        <div class="about-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ktpG9OWzVPA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="about-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+        
+    </section>
+
 </body>
 
 </html>
