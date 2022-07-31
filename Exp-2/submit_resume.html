@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Resume | Ruban Gino Singh | URK20CS2001</title>
+
+    <link rel="icon" type="image/png" href="assets/images/head-profile.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .title {
+            margin: 1rem 0 2rem 0;
+        }
+
+        .container {
+            margin: 1rem;
+            padding: 2rem;
+            border: 1px solid black;
+        }
+
+        fieldset {
+            padding: 2rem;
+            width: fit-content;
+        }
+
+        label {
+            display: inline-block;
+            min-width: 10rem;
+            text-align: left;
+        }
+        table, td, th, tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: .8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h2 class="title">Submit your resume</h2>
+
+        <!-- Personal Details -->
+        <div class="personal-details">
+            <form action="">
+                <fieldset>
+                    <legend>&nbsp;Personal Details&nbsp;</legend>
+                    <label for="fname">*First Name:</label>
+                    <input type="text" id="firstname" name="fname" placeholder="Enter your first name" required><br><br>
+                    <label for="mname">*Middle Name:</label>
+                    <input type="text" id="middlename" name="mname" placeholder="Enter your middle name"
+                        required><br><br>
+                    <label for="lname">*Last Name:</label>
+                    <input type="text" id="lastname" name="lname" placeholder="Enter your last name"><br><br>
+                    <label for="dob">*Date of Birth:</label>
+                    <input type="date" id="dob" name="dob"><br><br>
+                    <label for="age">*Age:</label>
+                    <input type="number" id="age" name="age" placeholder="18"><br><br>
+                    <label for="gender">*Gender: </label>
+                    <input type="radio" id="gender" name="male" value="Male" checked>
+                    <label for="gender">Male</label>
+                    <input type="radio" id="gender" name="male" value="Male">
+                    <label for="gender">Female</label><br>
+                </fieldset><br>
+                <input type="range" min="1" max="100" value="20" id="slider">&emsp;&emsp;<label for="slider">20% out of
+                    100%</label>
+            </form><br>
+        </div>
+
+        <!-- Address Details -->
+        <div class="address-details">
+            <form action="">
+                <fieldset>
+                    <legend>&nbsp;Address Details&nbsp;</legend>
+                    <label for="address">Address:</label>
+                    <textarea cols="30" rows="2" required></textarea><br><br>
+                    <label for="city-town">City/Town:</label>
+                    <input type="text" id="city-town" name="city" required><br><br>
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" required><br><br>
+                    <label for="zip-code">Zip Code:</label>
+                    <input type="number" placeholder="only 6 numbers" required>
+                </fieldset><br>
+                <input type="range" min="1" max="100" value="40" id="slider">&emsp;&emsp;<label for="slider">40% out of
+                    100%</label>
+            </form><br>
+        </div>
+
+        <div class="contact-info">
+            <form action="">
+                <fieldset>
+                    <legend>&nbsp;Contact Information&nbsp;</legend>
+                    <label for="Telephone">Telephone:</label>
+                    <input type="number" placeholder="(044) 999-9999" required><br><br>
+                    <label for="mobile">*Mobile:</label>
+                    <input type="number" placeholder="(+91) 99999-99999" required><br><br>
+                    <label for="email">*Email:</label>
+                    <input type="email" placeholder="valid email" required><br><br>
+                    <label for="website">Website:</label>
+                    <input type="text" placeholder="valid url" required>
+                </fieldset><br>
+                <input type="range" min="1" max="100" value="60" id="slider">&emsp;&emsp;<label for="slider">60% out of
+                    100%</label><br>
+            </form><br>
+        </div>
+
+        <div class="education">
+            <form action="">
+                <fieldset>
+                    <legend>&nbsp;Educational Details&nbsp;</legend>
+                    <table>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Board/University</th>
+                            <th>Country</th>
+                            <th>Starting Year</th>
+                            <th>Ending Year</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">10th</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td>
+                                <select>
+                                    <option value="choose">Choose</option>
+                                    <option value="ind">India</option>
+                                    <option value="us">US</option>
+                                    <option value="nz">New Zealand</option>
+                                    <option value="sa">South Africa</option>
+                                </select>
+                            </td>
+                            <td><input type="date"></td>
+                            <td><input type="date"></td>
+                            <td><input type="number" placeholder="70" style="width:40px; margin-left: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">12th</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td>
+                                <select>
+                                    <option value="choose">Choose</option>
+                                    <option value="ind">India</option>
+                                    <option value="us">US</option>
+                                    <option value="nz">New Zealand</option>
+                                    <option value="sa">South Africa</option>
+                                </select>
+                            </td>
+                            <td><input type="date"></td>
+                            <td><input type="date"></td>
+                            <td><input type="number" placeholder="70" style="width:40px; margin-left: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">B.Tech</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td>
+                                <select>
+                                    <option value="choose">Choose</option>
+                                    <option value="ind">India</option>
+                                    <option value="us">US</option>
+                                    <option value="nz">New Zealand</option>
+                                    <option value="sa">South Africa</option>
+                                </select>
+                            </td>
+                            <td><input type="date"></td>
+                            <td><input type="date"></td>
+                            <td><input type="number" placeholder="70" style="width:40px; margin-left: 10px;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">M.Tech</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td>
+                                <select>
+                                    <option value="choose">Choose</option>
+                                    <option value="ind">India</option>
+                                    <option value="us">US</option>
+                                    <option value="nz">New Zealand</option>
+                                    <option value="sa">South Africa</option>
+                                </select>
+                            </td>
+                            <td><input type="date"></td>
+                            <td><input type="date"></td>
+                            <td><input type="number" placeholder="70" style="width:40px; margin-left: 10px;"></td>
+                        </tr>
+                    </table>
+                </fieldset><br>
+                <input type="range" min="1" max="100" value="80">&emsp;&emsp;<label for="slider">80% out of 100%</label>
+            </form><br>
+        </div>
+
+        <div class="resume-upload">
+            <form action="">
+                <fieldset>
+                    <label for="attach-resume">Attach your resume in .doc or .pdf format&emsp;&emsp;</label>
+                    <input type="file" id="myresume" name="myresume"><br><br>
+                    <input type="checkbox">&nbsp;I have filled the details</td>
+                </fieldset><br>
+                <input type="range" min="1" max="100" value="100">&emsp;&emsp;<label for="slider">100% out of 100%</label>
+            </form><br>
+        </div>
+        <div class="button-container" style="width: 50%; text-align: center;">
+            <button type="submit" style="padding: .7rem 2rem;">Submit</button>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
