@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.head-img{
+    width: 8rem;
+}
+
+.head-img img{
+    width: 100%;
+}
+
+.head-title{
+    color: white;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.head-icon{
+    background-color: white;
+    opacity: .9;
+    height: fit-content;
+    padding: .8rem;
+    margin: .5rem .5rem 0 0;
+}
+
+.head-icon i{
+    font-size: 1.2rem;
+}
+
+/* Link Section */
