@@ -108,12 +108,14 @@ html{
 .card-container{
     background-image: url(https://raw.githubusercontent.com/Ruban2205/Web-Technology/main/Exp-3/assets/images/card-section.jpg);
     width: 100%;
-    height: 70vh;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cards{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 6rem;
+    padding: 6rem 0;
 }
 
 .card-title{
