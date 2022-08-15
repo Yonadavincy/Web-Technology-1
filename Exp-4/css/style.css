@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-item,
+.search,
+.navbar-brand {
+    margin: 1rem;
+}
+
+.navbar {
+    font-weight: 600;
+}
+
+.navbar-nav li a {
+    color: blue;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Carousel-Section */
+.carousel-inner {
+    height: 100vh;
+}
+
+.form {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.form-table {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
